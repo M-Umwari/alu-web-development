@@ -1,20 +1,19 @@
 Body { 
     display: flex;
-    background-color: antiquewhite;}
+    background-color: antiquewhite;
+    flex-direction: column;}
 main {
     display: flex;
     flex-direction: row;
-    flex: auto;
+    flex: auto;}
 
 article {
     flex: 2;
-    overflow-y: auto;
+    overflow-y: auto;}
 aside{
         flex: 1;
         overflow-y: auto;
     }
-}
-}
 image{
           
     size-adjust: auto;
