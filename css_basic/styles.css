@@ -1,12 +1,13 @@
 Body { 
-    display: flexBACK
-    background color :#FFFFFF;
+    display: flex;
+    background color :#800000;
+    
 }
 main {
     display: flex;
     flex-direction: row;
     flex: auto;
-    
+
 article {
     flex: 2;
     overflow-y: auto;
