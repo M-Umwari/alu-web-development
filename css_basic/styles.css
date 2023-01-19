@@ -1,10 +1,6 @@
 Body { 
     display: flex;
-    background-color: antiquewhite;
-    
-
-    
-}
+    background-color: antiquewhite;}
 main {
     display: flex;
     flex-direction: row;
@@ -20,5 +16,7 @@ aside{
 }
 }
 image{
-    size-adjust: -2;
+          
+    size-adjust: auto;
+    border-image-outset: 29px;
 }
