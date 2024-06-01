@@ -2,6 +2,7 @@
 
 Simple HTTP API for playing with `User` model.
 
+
 ## Files
 
 ### `models/`
@@ -15,20 +16,20 @@ Simple HTTP API for playing with `User` model.
 - `views/index.py`: basic endpoints of the API: `/status` and `/stats`
 - `views/users.py`: all users endpoints
 
+
 ## Setup
 
-``python
+```
 $ pip3 install -r requirements.txt
+```
 
-``
 
 ## Run
 
-``python
-
+```
 $ API_HOST=0.0.0.0 API_PORT=5000 python3 -m api.v1.app
+```
 
-``
 
 ## Routes
 
